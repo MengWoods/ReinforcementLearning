@@ -6,7 +6,7 @@ Created on Thu Jan 10 16:20:24 2019
 @author: menghao
 
 My intergration version of ddpg
-Runing on Gym-CartPole_v1 environment
+Runing on Gym-CartPole_v0 environment
 motivated by blog Patrick Emami ddpg and morvan's ddpg
 """
 import tensorflow as tf
