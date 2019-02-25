@@ -3,10 +3,10 @@
 """
 Created on Thu Jan 10 16:20:24 2019
 
-@author: menghaw1
+@author: menghao
 
-
-我的结合版 ddpg
+My intergration version of ddpg
+Runing on Gym-CartPole_v1 environment
 motivated by blog Patrick Emami ddpg and morvan's ddpg
 """
 import tensorflow as tf
