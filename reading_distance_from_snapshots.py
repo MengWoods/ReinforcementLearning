@@ -15,16 +15,16 @@ import os
 import time
 import glob#?
 
-tf.reset_default_graph()#  added by wu to reset graph  重复运行的时候需要加这句
+tf.reset_default_graph()#  added by wu to reset graph for repeat runing
 
-model_path='./model1/model.ckpt' #模型保存地址
-path = './experiment(18_Feb)/' #图像保存位置/Users/menghaw1/Downloads/0_wmh/6_Project2
+model_path='./model1/model.ckpt' #model saved directory
+path = './experiment(18_Feb)/' #/Users/menghaw1/Downloads/0_wmh/6_Project2   Snapshots directory
 
 w = 100
 h = 100
 c = 3  
 
-'''-------------读取数据-------------'''
+'''-------------read data-------------'''
 # read Image
 
 def read_img(path):
@@ -59,7 +59,7 @@ y_train=label[:s] #训练集标签
 x_val=data[s:]  #验证集数据
 y_val=label[s:]  #验证集标签
 
-'''-------------构建网络-------------'''
+'''-------------build structure-------------'''
 
 #占位符
 x=tf.placeholder(tf.float32,shape=[None,w,h,c],name='x')
@@ -130,7 +130,7 @@ def inference(input_tensor, train, regularizer):
         logit = tf.matmul(fc2, fc3_weights) + fc3_biases
     return logit
 
-#---------------------------网络结束---------------------------
+#---------------------------end of neural network---------------------------
 regularizer = tf.contrib.layers.l2_regularizer(0.0001)
 logits = inference(x,False,regularizer)
 
