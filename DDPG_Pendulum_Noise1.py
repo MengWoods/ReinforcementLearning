@@ -3,11 +3,10 @@
 """
 Created on Thu Jan 10 16:20:24 2019
 
-@author: menghaw1
-
-
-我的结合版 ddpg
-motivated by blog Patrick Emami ddpg and morvan's ddpg
+@author: menghao
+We add type 1 noise on environment state
+type 1 noise: add random noise on 3 entries of states
+converge slowly within 400 episodes.
 """
 import tensorflow as tf
 import numpy as np
