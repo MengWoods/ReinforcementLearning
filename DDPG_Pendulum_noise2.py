@@ -3,11 +3,10 @@
 """
 Created on Thu Jan 10 16:20:24 2019
 
-@author: menghaw1
+@author: mengha0
 
-
-我的结合版 ddpg
-motivated by blog Patrick Emami ddpg and morvan's ddpg
+Noise type 2: add extra 3 state entries which are noise and origin state data in turns.
+result: less influence to performance
 """
 import tensorflow as tf
 import numpy as np
