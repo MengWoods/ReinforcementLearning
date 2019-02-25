@@ -3,11 +3,11 @@
 """
 Created on Thu Jan 10 16:20:24 2019
 
-@author: menghaw1
+@author: menghao
+Environment: Pendulum_v0
 
-
-我的结合版 ddpg
-motivated by blog Patrick Emami ddpg and morvan's ddpg
+No environment noise
+converge within 200 episodes
 """
 import tensorflow as tf
 import numpy as np
