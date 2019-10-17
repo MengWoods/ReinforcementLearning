@@ -21,4 +21,4 @@
   * [target tracking paper](http://openaccess.thecvf.com/content_cvpr_2017/papers/Yun_Action-Decision_Networks_for_CVPR_2017_paper.pdf)
 
 ## Graph signal sampling with RL
-> This work goes not very good, the reason might come from the experiment environment is not good for RL agent to explore.
+> Apply the DQN to do graph sampling walk
