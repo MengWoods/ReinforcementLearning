@@ -18,6 +18,6 @@
 - NAF
 	- The idea behind NAF is to represent the Q function in Q-learning in such a way that its maximum, argmaxQ.
 	- P is a state-dependent, positive-definite square matrix
-	- ![alg.NAF](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Mono_network/NAF.png)
+	- ![alg.NAF](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Mono_network/NAF.png){:height="50%" width="50%"}
 
 
