@@ -1,6 +1,8 @@
 # Continuous Deep Q-Learning with Model-based Acceleration  (NAF)
 > Shixiang Gu, University of Cambridge , 2016
 
+
+
 	• Abstract
 		○ The sample complexity of model free algorithm limit their applicability to physical system.
 		○ We derive a continuous variant of the Q-learning algorithm we call NAF. 
@@ -15,6 +17,6 @@
 	• NAF
 		○ The idea behind NAF is to represent the Q function in Q-learning in such a way that its maximum, argmaxQ.
 		○ P is a state-dependent, positive-definite square matrix
-		○ [alg.NAF](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Mono_network/NAF.png)
+		○ ![alg.NAF](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Mono_network/NAF.png)
 
 
