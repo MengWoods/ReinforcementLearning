@@ -24,3 +24,7 @@
 ## Graph signal sampling with RL
 > Apply the DQN to do graph sampling walk
   * [Graph signal sampling via DQN](https://github.com/MorganWoods/ReinforcementLearning/tree/master/GSS_DQN)
+
+
+## Searching for optimal solution
+> This task is working on finding right solution of a complex function. Using the advantage of reinforcement learning, agent is used to find out the solution under complicated and tedious environment instead of human.
