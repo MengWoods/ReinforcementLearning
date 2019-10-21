@@ -5,6 +5,7 @@
   * [Gym_CartPole_v0_DDPG](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_Cartpole/DDPG_CartPole_v0.py)
   * [Gym_Enduro](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_Enduro/DRL_enduro.py)
   * [Gym_Box2d](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_Box2d/carRacing.py)
+  * [Gym_MountainCar](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_MountainCar/MountainCar-V0-QL.py)
 
 ## Reading distance from image input
 
