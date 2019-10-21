@@ -6,6 +6,7 @@
   * [Gym_Enduro](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_Enduro/DRL_enduro.py)
   * [Gym_Box2d](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_Box2d/carRacing.py)
   * [Gym_MountainCar](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_MountainCar/MountainCar-V0-QL.py)
+  * [Gym_Pendulum_DoubleDQN](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_Pendulum_DoubleDQN/run_Pendulum.py)
 
 ## Reading distance from image input
 
