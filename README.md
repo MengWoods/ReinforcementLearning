@@ -8,9 +8,9 @@
   * [Gym_MountainCar](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_MountainCar/MountainCar-V0-QL.py)
   * [Gym_Pendulum_DoubleDQN](https://github.com/MorganWoods/ReinforcementLearning/blob/master/Gym_Pendulum_DoubleDQN/run_Pendulum.py)
 
-## Reading distance from image input
+## Distance prediction
 
-  * [Reading distance from snapshots](https://github.com/MorganWoods/ReinforcementLearning/blob/master/reading_distance_from_snapshots.py)
+  * [Reading distance from snapshots](https://github.com/MorganWoods/ReinforcementLearning/tree/master/DistancePrediction)
 
 
 ## Mono-network (NAF)
