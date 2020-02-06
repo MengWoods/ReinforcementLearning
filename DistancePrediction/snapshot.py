@@ -5,7 +5,7 @@ Created on Mon Feb 19 12:05:41 2018
 build this file to processing images from turtlebot
 function: input image ; output  location
 
-@author: menghaw1
+@author: Woods
 """
 import tensorflow as tf
 import numpy as np
@@ -15,10 +15,10 @@ import os
 import time
 import glob#?
 
-tf.reset_default_graph()#  added by wu to reset graph  重复运行的时候需要加这句
+tf.reset_default_graph()#  added by Woods to reset graph  重复运行的时候需要加这句
 
 model_path='./model1/model.ckpt' #模型保存地址
-path = './experiment(18_Feb)/' #图像保存位置/Users/menghaw1/Downloads/0_wmh/6_Project2
+path = './experiment(18_Feb)/' #图像保存位置/Users/Woods/Downloads/0_wmh/6_Project2
 
 w = 100
 h = 100
@@ -180,7 +180,7 @@ for epoch in range(n_epoch):
     for x_val_a, y_val_a in minibatches(x_val, y_val, batch_size, shuffle=False):
         err, ac = sess.run([loss,acc], feed_dict={x: x_val_a, y_: y_val_a})
         val_loss += err; val_acc += ac; n_batch += 1
-    print("    validation loss: %f" % (np.sum(val_loss)/ n_batch),end='') # end added by wu
+    print("    validation loss: %f" % (np.sum(val_loss)/ n_batch),end='') # end added by Woods
     print("   validation acc: %f" % (np.sum(val_acc)/ n_batch))
 saver.save(sess,model_path)
 sess.close()

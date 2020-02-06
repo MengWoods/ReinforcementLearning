@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Sun Dec 30 13:02:11 2018
-@author: menghaw1
+@author: Woods
 Todo: utilize n_features argument.
 """
 

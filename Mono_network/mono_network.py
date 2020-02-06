@@ -4,7 +4,7 @@
 我想用一个网络来实现 AC 的功能, 参考了 NAF 那篇文章的思想,但是目前不 work, 需要进一步探究.
 Created on Tue Apr 17 01:18:35 2018
 理念:单独网络输出 连续动作 a ,其他分流输出 V 和 A 然后构造 Q, 用 Q 升级网络,周而复始.
-@author: menghaw1 
+@author: Woods 
 """
 import tensorflow as tf
 import numpy as np

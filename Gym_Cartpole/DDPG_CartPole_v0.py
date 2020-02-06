@@ -3,7 +3,7 @@
 """
 Created on Thu Jan 10 16:20:24 2019
 
-@author: menghao
+@author: Woods
 
 My intergration version of ddpg
 Runing on Gym-CartPole_v0 environment

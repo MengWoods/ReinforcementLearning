@@ -3,7 +3,7 @@
 """
 Created on Thu Jan 25 21:42:39 2018
 All 算法的核心部分整合在这个文件中
-@author: menghaw1
+@author: Woods
 """
 import numpy as np
 import pandas as pd
@@ -55,7 +55,7 @@ class DeepQNetwork:
         
         self.sess.run(tf.global_variables_initializer())
         self.cost_his=[]
-        #self.reward_his=[]#wu
+        #self.reward_his=[]#Woods
     def _build_net(self):
         # --------------------------------build evaluate_net--------------------------------------
         self.s = tf.placeholder(tf.float32,[None,self.n_features],name='s') #input
@@ -122,7 +122,7 @@ class DeepQNetwork:
         #check to repalce target parameters. 每隔多久更换一次目标权重
         if self.learn_step_counter % self.replace_target_iter == 0:
             self.sess.run(self.replace_target_op)
-            #ghcs = self.learn_step_counter // self.replace_target_iter #向下取整, wu 加  更换次数; 也可以用 round 函数四舍五入
+            #ghcs = self.learn_step_counter // self.replace_target_iter #向下取整, Woods 加  更换次数; 也可以用 round 函数四舍五入
             #print(ghcs,' times target_params_replaced \n')
         # sample batch memory from all memory
         if self.memory_counter > self.memory_size:

@@ -3,7 +3,7 @@
 """
 Created on Sat Dec 29 18:20:06 2018
 
-@author: menghaw1
+@author: Woods
 """
 
 ENV_NAME = 'Enduro-v0'

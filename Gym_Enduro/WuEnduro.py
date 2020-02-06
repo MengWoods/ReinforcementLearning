@@ -7,7 +7,7 @@ running Enduro with tensorflow
 
 Enduro env source page: https://github.com/openai/gym/blob/master/gym/envs/atari/atari_env.py
 future: add soft update
-@author: menghaw1
+@author: Woods
 """
 import tensorflow as tf
 import numpy as np

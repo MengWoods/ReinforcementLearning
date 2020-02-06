@@ -4,7 +4,7 @@
 Created on Tue Feb 13 11:33:39 2018
 原文是莫烦的 mountaincar v0
 使用 DQN 与 cartpole 差不多
-@author: menghaw1
+@author: Woods
 """
 import gym
 from brain import DeepQNetwork
@@ -13,7 +13,7 @@ import numpy as np
 np.random.seed(1)
 import tensorflow as tf
 tf.set_random_seed(1)
-tf.reset_default_graph()#wu 为了重置变量 否则不能重复运行.
+tf.reset_default_graph()#Woods 为了重置变量 否则不能重复运行.
 
 env = gym.make('MountainCar-v0')
 env = env.unwrapped
